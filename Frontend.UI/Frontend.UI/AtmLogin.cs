@@ -174,8 +174,9 @@ namespace Frontend.UI
             }
             else
             {
-                var xml = XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text);
-                AsynchronousClient.StartClient(xml);
+                //AsynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
+                SynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
+
             }
         }
     }

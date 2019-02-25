@@ -55,7 +55,8 @@
     <Compile Include="Objects.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SocketConn.cs" />
+    <Compile Include="SocketConnAsync.cs" />
+    <Compile Include="SocketConnSync.cs" />
     <Compile Include="XmlSerialization.cs" />
     <EmbeddedResource Include="AtmLogin.resx">
       <DependentUpon>AtmLogin.cs</DependentUpon>
