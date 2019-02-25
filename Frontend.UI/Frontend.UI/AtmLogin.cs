@@ -16,10 +16,23 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("1");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-1");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("1");
+                    }
+                }
             } else
             {
-                PinNumber.AppendText("1");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("1");
+                }
             }
         }
 
@@ -27,11 +40,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("2");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-2");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("2");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("2");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("2");
+                }
             }
         }
 
@@ -39,11 +65,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("3");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-3");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("3");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("3");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("3");
+                }
             }
         }
 
@@ -51,11 +90,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("4");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-4");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("4");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("4");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("4");
+                }
             }
         }
 
@@ -63,11 +115,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("5");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-5");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("5");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("5");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("5");
+                }
             }
         }
 
@@ -75,11 +140,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("6");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-6");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("6");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("6");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("6");
+                }
             }
         }
 
@@ -87,11 +165,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("7");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-7");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("7");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("7");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("7");
+                }
             }
         }
 
@@ -99,11 +190,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("8");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-8");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("8");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("8");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("8");
+                }
             }
         }
 
@@ -111,11 +215,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("9");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-9");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("9");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("9");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("9");
+                }
             }
         }
 
@@ -123,11 +240,24 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                CcNumber.AppendText("0");
+                if (CcNumber.TextLength < 19)
+                {
+                    if (CcNumber.TextLength == 4 || CcNumber.TextLength == 9 || CcNumber.TextLength == 14)
+                    {
+                        CcNumber.AppendText("-0");
+                    }
+                    else
+                    {
+                        CcNumber.AppendText("0");
+                    }
+                }
             }
             else
             {
-                PinNumber.AppendText("0");
+                if (PinNumber.TextLength < 4)
+                {
+                    PinNumber.AppendText("0");
+                }
             }
         }
 
@@ -170,13 +300,26 @@ namespace Frontend.UI
         {
             if (CcNumber.Visible)
             {
-                RequestPinNumber();
+                if (CcNumber.TextLength < 19)
+                {
+                    MessageBox.Show("Enter a valid Credit Card number to continue...");
+                }
+                else if (CcNumber.Text != "" && CcNumber.TextLength == 19)
+                {
+                    RequestPinNumber();
+                }
             }
             else
             {
-                //AsynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
-                SynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
-
+                if (PinNumber.TextLength < 4)
+                {
+                    MessageBox.Show("Enter a 4-Digit Pin number to continue...");
+                }
+                else
+                {
+                    //AsynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
+                    SynchronousClient.StartClient(XmlSerialization.LoginData(CcNumber.Text, PinNumber.Text));
+                }
             }
         }
     }

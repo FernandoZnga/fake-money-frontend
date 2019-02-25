@@ -56,6 +56,7 @@
             this.CcNumber.Name = "CcNumber";
             this.CcNumber.Size = new System.Drawing.Size(300, 43);
             this.CcNumber.TabIndex = 0;
+            this.CcNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CcNumberLabel
             // 
@@ -240,6 +241,7 @@
             this.PinNumber.Name = "PinNumber";
             this.PinNumber.Size = new System.Drawing.Size(150, 43);
             this.PinNumber.TabIndex = 3;
+            this.PinNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Main
             // 
